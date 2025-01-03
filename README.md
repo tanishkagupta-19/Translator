@@ -1,5 +1,4 @@
 # Translator
-
 This is a simple text translator application built using HTML, CSS, and JavaScript. It allows users to input text in one language and translate it into another. The interface features a clean design with options to select the source and target languages and control the text translation process.
 
 ## Features
