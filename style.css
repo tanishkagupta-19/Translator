@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Poppins',sans-serif; */
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #001524;
+}
+
+.container{
+    max-width: 600px;
+    width: 80%;
+    background: white;
+    padding: 30px;
+    box-shadow:0 20px 20px #15616d;
+    border-radius: 10px;
+}
+
+.wrapper{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.text-input{
+    display: flex;
+    border-bottom: 1px solid black;
+}
+
+.from-text{
+    border-radius: 10px 0px 0px 10px;
+    border-right: 1px solid black;
+}
+.to-text{
+    border-radius: 10px 10px 0px 10px;
+}
+
+textarea{
+    height: 250px;
+    width: 100%;
+    border: none;
+    outline: none;
+    resize: none;
+    padding: 10px;
+    font-size: 18px;
+
+}
+
+.controls{
+    list-style:none;
+    padding: 12px;
+}
+
+.controls, li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.controls .row .icons i{
+    width: 40px;
+    font-size: 16px;
+    color: #ff7d00;
+  
+}
+
+.controls .from .icons{
+    padding-right:10px ;
+    border-right:1px solid black ;
+}
+
+.controls .to .icons{
+    padding-left: 10px;
+    border-left: 1px solid black;
+}
+
+select{
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 18px;
+    margin:0px 10px
+
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    background-color: #78290f;
+    border-radius: 5em;
+    font-size: 18px;
+    color: white;
+    cursor:pointer;
+}
+
+ 
